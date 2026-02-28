@@ -1,0 +1,5 @@
+Distribucion de cantidad de columnas detectadas:
+num_columnas
+110    101
+
+Todos los archivos tienen 110 columnas.

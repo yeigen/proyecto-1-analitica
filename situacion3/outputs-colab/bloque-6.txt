@@ -1,0 +1,2 @@
+RESULTADO: Todos los archivos tienen 110 columnas.
+Archivo de referencia: 2000Q1.csv

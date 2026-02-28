@@ -1,0 +1,29 @@
+================================================================================
+RESUMEN FINAL DE LA EXPLORACION
+================================================================================
+
+Directorio: /content/drive/MyDrive/estadistica_proyecto_1/situacion3/csv_raw/
+Archivos CSV encontrados: 101
+
+1. SEPARADOR
+   Separador real: | (pipe) en todos los archivos
+   NOTA: csv.Sniffer no es confiable para estos archivos.
+   Motivo: el campo SERVICER_NAME contiene comas literales (ej: 'Bank, N.A.')
+   que confunden al Sniffer. Se usa sep='|' fijo en toda la lectura.
+
+2. ESTRUCTURA
+   Header: ninguno (header=None). Primera fila son datos.
+   Columnas esperadas: ~110 (indices 0 a 109)
+
+3. CONSISTENCIA DE COLUMNAS
+   Todos los archivos tienen 110 columnas.
+
+4. COLUMNAS CON NULOS (muestra de 1000 filas por archivo)
+   Total de columnas: 110
+   Columnas con algun nulo: 85
+   Columnas con >50% nulos: 70
+   Columnas 100% nulas: 53
+
+================================================================================
+Exploracion completada.
+================================================================================
